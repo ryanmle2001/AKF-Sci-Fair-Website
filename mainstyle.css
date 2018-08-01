@@ -1,0 +1,38 @@
+
+
+
+.grid{
+	display: grid;
+	background-color: maroon;
+}
+
+.directory li {
+	list-style: none;
+	font-size: 20px; 	
+	margin-right: 20px;
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px;
+	outline: 2px solid grey;
+
+
+}
+h1{
+	text-align: center;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+
+li a:hover {
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+     background-color: gold;
+}
+footer{
+	background-color: gold;
+}

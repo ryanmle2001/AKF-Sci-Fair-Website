@@ -1,6 +1,7 @@
 
 *{
 	border: 1px solid black;
+	background: #b5e7a0;
 }
 
 .grid{
@@ -10,7 +11,8 @@
 }
 
 .directory {
-	display: inline;
+	display: inline
+	list-style-type: none;
 }
 
 li {

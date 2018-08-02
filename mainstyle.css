@@ -1,4 +1,6 @@
 *{
+	
+	border: 1px solid black;
 	text-align: center;
 	align-items: center;
 	color: maroon;
@@ -11,17 +13,6 @@
 	grid-template-areas: "header header" "section section"
 }
 
-header{
-	grid-area: header;
-	background-color: maroon;
-	height: 100px;
-	margin-top: 40px;
-}
-
-.directory{
-	position: relative; 
-	top: 30px; 
-}
 
 .motto h4 {
 	font-family: "Playfair Display", "Times", serif;
@@ -29,7 +20,23 @@ header{
 	font-weight: 0.2;
 	top: 0;
 	left: 35%;
+}	
+
+header{
+	grid-area: header;
+	background-color: maroon;
+	height: 100px;
+	margin-top: 40px;
+	display: grid;
+	grid-template-areas: "akf directory";
+	grid-template-columns: 1fr 5fr;
 }
+
+.directory{
+	grid-area:directory;
+}
+
+
 .directory div {
 	font-size: 20px; 	
 	margin-right: 2px;
@@ -39,15 +46,10 @@ header{
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
-	align-items: : center;
-
 }
 
 .akf {
-	position: absolute;	
-	left: 100px;
-	top: -30px;
-	border-radius: 100%;
+	grid-area: akf;
 }
 .akf img{
 	width: 85px;

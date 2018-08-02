@@ -20,7 +20,15 @@ header{
 
 .directory{
 	position: relative; 
-	top: 25px; 
+	top: 30px; 
+}
+
+.motto h4 {
+	font-family: "Playfair Display", "Times", serif;
+	position: absolute; 
+	font-weight: 0.2;
+	top: 0;
+	left: 35%;
 }
 .directory div {
 	font-size: 20px; 	
@@ -38,7 +46,7 @@ header{
 .akf {
 	position: absolute;	
 	left: 100px;
-	top: -25px;
+	top: -30px;
 	border-radius: 100%;
 }
 .akf img{

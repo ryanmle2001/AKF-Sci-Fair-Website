@@ -1,1 +1,21 @@
+h1{
+	text-align: center;
+	position: 100px;
+}
 
+
+
+
+
+.directory{
+			text-align: center;
+			list-style: none;
+			padding: 0;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}

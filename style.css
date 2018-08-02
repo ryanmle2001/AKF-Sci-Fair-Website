@@ -30,3 +30,14 @@ width: 100%;
 height: 100%;
 position: static;
 }
+
+.form{
+	list-style: none;
+	position: center;
+
+}
+
+button{
+	background-color: : maroon:;
+	color: white;
+}

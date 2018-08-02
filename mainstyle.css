@@ -69,3 +69,7 @@ div a:hover {
      cursor:pointer;  
      background-color: gold;
 }
+
+p {
+	color: black;
+}

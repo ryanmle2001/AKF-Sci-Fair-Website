@@ -140,16 +140,15 @@ input{
 	background-color: #FFF;
 	font-size: 20px; 	
 	width: 100px;
-	
-	
-	
-	
+	text-align: center;
 }
 
 input:hover{
 	background-color: gold;
 }
 
+
+}
 form{
 	
 }

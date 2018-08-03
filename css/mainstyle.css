@@ -45,17 +45,25 @@ header{
 	padding: 5px;
 }
 
-.directory div {
+.directory form{
+}
+.directory input {
+	font-family: "Times New Roman", Times, serif;
 	font-size: 20px; 	
 	margin-right: 2px;
 	display: inline-block;
 	width: 100px;
-	height: 25px;
+	height: 30px;
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
 	outline: 1px solid grey;
 }
+
+.directory input:hover{
+	background-color: grey;
+}
+
 
 .akf {
 	grid-area: akf;
@@ -83,32 +91,13 @@ a {
     text-decoration: none;
 }
 
-div a:hover {
+a:hover {
      color:maroon; 
-     text-decoration:none; 
      cursor:pointer;  
-     background-color: gold;
+     background-color: grey;
 }
 
-.home:hover{
-	background-color: gold
-}
 
-.about:hover{
-	background-color: gold
-}
-
-.signup:hover{
-	background-color: gold
-}
-
-.contact:hover{
-	background-color: gold
-}
-
-.media:hover{
-	background-color: gold
-}
 
 p {
 	color: black;
@@ -127,32 +116,11 @@ button{
 }
 
 button:hover{
-	background-color: gold;
+	background-color: grey;
 }
 
-input{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 5px; 	
-	margin-right: 2px;
-	display: inline-block;
-	width: 100px;
-	min-width: 50px; 
-	background-color: #FFF;
-	font-size: 20px; 	
-	width: 100px;
-	
-	
-	
-	
-}
 
-input:hover{
-	background-color: gold;
-}
 
-form{
-	
-}
 
 	
 	

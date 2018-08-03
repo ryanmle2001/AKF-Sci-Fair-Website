@@ -7,23 +7,9 @@
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 25px 1fr 2fr 3fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "stuinfo teachinfo";
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
+	grid-template-rows: 25px 1fr 2fr;
 }
-
-.stuinfo{
-	grid-area: stuinfo;
-	align-self:start;
-
-}
-
-.teachinfo{
-	grid-area: teachinfo;
-	align-self: start;
-
-
-}
-
 
 .motto {
 	font-family: "Playfair Display", "Times", serif;
@@ -31,54 +17,35 @@
 	align-self: center;
 	height: 100%;
 	font-weight: 0.2;
-	border-top: 1px solid maroon;
-	justify-self: center;
-
 }	
 
 header{
 	grid-area: header;
+	background-color: maroon;
 	display: grid;
 	grid-template-areas: "akf directory";
 	grid-template-columns: 1fr 5fr;
 	padding: 0;
 	height: 100%;
-	border-top: 1px solid maroon;
-	border-bottom: 1px solid maroon;
-	border-top-right-radius: 35%;
-	border-bottom-right-radius: 35%;
 }
 
 .directory{
 	grid-area:directory;
-	background-color: maroon;
-	border: 2px solid gold;
-	border-top-right-radius: 30%;
-	border-bottom-right-radius: 30%;
-	align-content: center;
-	padding: 5px;
 }
 
 .directory div {
 	font-size: 20px; 	
 	margin-right: 2px;
 	display: inline-block;
+	padding: 5px;
 	width: 100px;
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
-	outline: 1px solid grey;
-	height: 25px;
 }
 
 .akf {
 	grid-area: akf;
-	background-color: maroon;
-	border-top: : 3px solid gold;
-	border-left: 3px solid gold;
-	border-bottom: 2px solid gold;
-	border-top-right-radius: 35%;
-	border-bottom-right-radius: 35%;
 }
 
 .akf img{
@@ -90,34 +57,69 @@ header{
 .centerhead{
 	grid-area: centerhead;
 	padding: 0;
-
-
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 div a:hover {
-     color:#00A0C6; 
+     color:maroon; 
      text-decoration:none; 
      cursor:pointer;  
      background-color: gold;
 }
 
+.home:hover{
+	background-color: gold
+}
+
+.about:hover{
+	background-color: gold
+}
+
+.signup:hover{
+	background-color: gold
+}
+
+.contact:hover{
+	background-color: gold
+}
+
+.media:hover{
+	background-color: gold
+}
+
 p {
 	color: black;
+	font-size: 15px;
+}
+
+button{
+	font-size: 18px; 	
+	margin-right: 2px;
+	display: inline-block;
+	padding: 5px;
+	width: 100px;
+	min-width: 50px; 
+	text-align: center;
+	background-color: #FFF;
+}
+
+button:hover{
+	background-color: gold;
 }
 
 input{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 5px; 	
+	font-size: 18px; 	
 	margin-right: 2px;
 	display: inline-block;
+	padding: 5px;
 	width: 100px;
 	min-width: 50px; 
+	text-align: center;
 	background-color: #FFF;
-	font-size: 20px; 	
-	width: 100px;
 }
 
 input:hover{

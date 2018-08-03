@@ -63,11 +63,12 @@ header{
 	font-size: 20px; 	
 	margin-right: 2px;
 	display: inline-block;
-	padding: 5px;
 	width: 100px;
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
+	outline: 1px solid grey;
+	height: 25px;
 }
 
 .akf {

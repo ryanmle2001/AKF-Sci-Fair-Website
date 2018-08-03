@@ -27,13 +27,11 @@ header{
 	grid-template-columns: 1fr 5fr;
 	padding: 0;
 	height: 100%;
-
 }
 
 .directory{
 	grid-area:directory;
 }
-
 
 .directory div {
 	font-size: 20px; 	
@@ -49,22 +47,23 @@ header{
 .akf {
 	grid-area: akf;
 }
+
 .akf img{
 	width: 85px;
 	height: 85px; 
 	border-radius: 100%;
-
 }
+
 .centerhead{
 	grid-area: centerhead;
 	padding: 0;
-
-
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 div a:hover {
      color:#00A0C6; 
      text-decoration:none; 
@@ -74,9 +73,6 @@ div a:hover {
 
 p {
 	color: black;
-<<<<<<< HEAD
 	font-size: 15px;
 }
-=======
-}
->>>>>>> a6ccf7ca35900a258205f61646ef2c8d0a8112ad
+

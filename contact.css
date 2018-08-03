@@ -7,9 +7,23 @@
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
-	grid-template-rows: 25px 1fr 2fr;
+	grid-template-rows: 25px 1fr 2fr 3fr;
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "stuinfo teachinfo";
 }
+
+.stuinfo{
+	grid-area: stuinfo;
+	align-self:start;
+
+}
+
+.teachinfo{
+	grid-area: teachinfo;
+	align-self: start;
+
+
+}
+
 
 .motto {
 	font-family: "Playfair Display", "Times", serif;
@@ -74,9 +88,4 @@ div a:hover {
 
 p {
 	color: black;
-<<<<<<< HEAD
-	font-size: 15px;
 }
-=======
-}
->>>>>>> a6ccf7ca35900a258205f61646ef2c8d0a8112ad

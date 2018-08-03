@@ -65,10 +65,30 @@ a {
 }
 
 div a:hover {
-     color:#00A0C6; 
+     color:maroon; 
      text-decoration:none; 
      cursor:pointer;  
      background-color: gold;
+}
+
+.home:hover{
+	background-color: gold
+}
+
+.about:hover{
+	background-color: gold
+}
+
+.signup:hover{
+	background-color: gold
+}
+
+.contact:hover{
+	background-color: gold
+}
+
+.media:hover{
+	background-color: gold
 }
 
 p {
@@ -76,3 +96,32 @@ p {
 	font-size: 15px;
 }
 
+button{
+	font-size: 18px; 	
+	margin-right: 2px;
+	display: inline-block;
+	padding: 5px;
+	width: 100px;
+	min-width: 50px; 
+	text-align: center;
+	background-color: #FFF;
+}
+
+button:hover{
+	background-color: gold;
+}
+
+input{
+	font-size: 18px; 	
+	margin-right: 2px;
+	display: inline-block;
+	padding: 5px;
+	width: 100px;
+	min-width: 50px; 
+	text-align: center;
+	background-color: #FFF;
+}
+
+input:hover{
+	background-color: gold;
+}

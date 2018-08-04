@@ -1,7 +1,6 @@
 *{
 	text-align: center;
 	align-items: center;
-	color: maroon;
 }
 
 .grid{
@@ -84,6 +83,8 @@ header{
 .centerhead{
 	grid-area: centerhead;
 	padding: 0;
+	background-image: url("http://www.hdflowerwallpaper.com/wallpaper/2015/05/yellow-flowers-that-bloom-in-spring-5-free-wallpaper.jpg");
+	color: white;
 }
 
 a {
@@ -100,7 +101,7 @@ a:hover {
 
 
 p {
-	color: black;
+	color: white;
 	font-size: 15px;
 }
 

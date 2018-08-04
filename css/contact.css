@@ -1,7 +1,6 @@
 *{
 	text-align: center;
 	align-items: center;
-	color: maroon;
 }
 
 .grid{
@@ -95,8 +94,8 @@ header{
 .centerhead{
 	grid-area: centerhead;
 	padding: 0;
-
-
+	background-image: url("https://www.desktopbackground.org/p/2015/02/08/899594_the-gallery-for-quantum-mechanics-wallpapers_1701x1134_h.jpg");
+	color: white;
 }
 a {
     color: inherit;

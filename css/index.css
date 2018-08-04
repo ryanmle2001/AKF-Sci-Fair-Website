@@ -7,8 +7,8 @@
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
-	grid-template-rows: 25px 1fr 2fr;
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
+	grid-template-rows: 25px 1fr 3fr 5fr;
 }
 
 .motto {
@@ -83,7 +83,56 @@ header{
 
 .centerhead{
 	grid-area: centerhead;
-	padding: 0;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+
+.centerhead section{
+	height: 90%;
+	width: 97%; 
+	display: flex;
+	justify-content: center;
+	outline: 2px solid maroon;
+}
+
+.content{
+	grid-area: content;
+	display: grid;
+	grid-template-areas: "about signup" "contact media"; 
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (2, 1fr);
+	height: 100%;
+
+}
+
+.content section{
+	display: flex;
+	height: 90%;
+	width: 95%;
+	justify-content: center;
+	margin: 0 auto;
+	outline: 2px solid maroon;
+
+}
+.about{
+	grid-area: about;
+	
+
+}
+
+.signup{
+	grid-area: signup;
+}
+
+.contact{
+	grid-area: contact;
+
+}
+
+.media{
+	grid-area: media;
 }
 
 a {

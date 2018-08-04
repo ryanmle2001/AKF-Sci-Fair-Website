@@ -83,8 +83,21 @@ header{
 
 .centerhead{
 	grid-area: centerhead;
-	padding: 0;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
 }
+
+.centerhead section{
+	height: 90%;
+	width: 97%; 
+	display: flex;
+	justify-content: center;
+	outline: 2px solid maroon;
+}
+
+
 
 a {
     color: inherit;

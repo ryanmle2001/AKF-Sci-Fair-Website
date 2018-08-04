@@ -1,7 +1,11 @@
 *{
+<<<<<<< HEAD
+=======
+	
+>>>>>>> a3ae7ea62cb1d6d787a3474ce017d9d098fc857b
 	text-align: center;
 	align-items: center;
-	color: maroon;
+
 }
 
 .grid{
@@ -93,6 +97,9 @@ header{
 	display: flex;
 	justify-content: center;
 	outline: 2px solid maroon;
+	padding: 0;
+	background-image: url("http://s3.amazonaws.com/stripgenerator/strip/94/96/59/00/00/full.png");
+	color: white;
 }
 
 a {

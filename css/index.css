@@ -1,7 +1,7 @@
 *{
 	text-align: center;
 	align-items: center;
-	color: maroon;
+	
 }
 
 .grid{
@@ -95,6 +95,9 @@ header{
 	display: flex;
 	justify-content: center;
 	outline: 2px solid maroon;
+	padding: 0;
+	background-image: url("https://i.ytimg.com/vi/fVsONlc3OUY/maxresdefault.jpg");
+	color: white;
 }
 
 .content{
@@ -133,6 +136,7 @@ header{
 
 .media{
 	grid-area: media;
+	
 }
 
 a {
@@ -185,4 +189,10 @@ input{
 }
 form{
 	
+}
+
+footer {
+	width: 100%;
+	background-color: gray;
+	padding: 10px 0px;
 }

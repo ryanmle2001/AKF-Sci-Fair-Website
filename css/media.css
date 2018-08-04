@@ -1,7 +1,6 @@
 *{
 	text-align: center;
 	align-items: center;
-	color: maroon;
 }
 
 .grid{
@@ -84,7 +83,7 @@ header{
 	display: flex;
 	height: 100%;
 	width: 100%;
-	justify-content: center;
+	justify-content: center;	
 }
 
 .centerhead section{
@@ -93,6 +92,9 @@ header{
 	display: flex;
 	justify-content: center;
 	outline: 2px solid maroon;
+	padding: 0;
+	background-image: url("https://wallpapercave.com/wp/PO6cjaY.jpg");
+	color: white;
 }
 
 

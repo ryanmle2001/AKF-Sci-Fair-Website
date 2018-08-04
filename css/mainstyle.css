@@ -84,6 +84,7 @@ header{
 .centerhead{
 	grid-area: centerhead;
 	padding: 0;
+	background-image: url("https://i.ytimg.com/vi/fVsONlc3OUY/maxresdefault.jpg");
 }
 
 a {
@@ -137,6 +138,7 @@ input{
 form{
 	
 }
+
 
 
 	

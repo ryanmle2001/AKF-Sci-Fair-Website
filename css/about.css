@@ -6,8 +6,8 @@
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
-	grid-template-rows: 25px 1fr 2fr;
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
+	grid-template-rows: 25px 1fr 2fr 3fr;
 }
 
 .motto {
@@ -93,12 +93,20 @@ nav input:hover{
 	justify-content: center;
 	outline: 2px solid maroon;
 	padding: 0;
-	background-image: url("http://www.hdflowerwallpaper.com/wallpaper/2015/05/yellow-flowers-that-bloom-in-spring-5-free-wallpaper.jpg");
+	background-image: url("../img/about.jpg");
 	color: white;
 }
 
+.content{
+	grid-area: content;
+	height: 100%;
+	width: 100%;
 
+}
 
+span{
+	text-transform: uppercase;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -113,7 +121,7 @@ a:hover {
 
 
 p {
-	color: white;
+	color: black;
 	font-size: 15px;
 }
 

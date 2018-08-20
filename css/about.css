@@ -24,7 +24,7 @@
 header{
 	grid-area: header;
 	display: grid;
-	grid-template-areas: "akf directory";
+	grid-template-areas: "akf nav";
 	grid-template-columns: 1fr 5fr;
 	padding: 0;
 	height: 100%;
@@ -34,8 +34,8 @@ header{
 	border-bottom-right-radius: 35%;
 }
 
-.directory{
-	grid-area:directory;
+nav{
+	grid-area:nav;
 	background-color: maroon;
 	border: 2px solid gold;
 	border-top-right-radius: 30%;
@@ -44,10 +44,8 @@ header{
 	padding: 5px;
 }
 
-.directory form{
-}
-.directory input {
-	font-family: "Times New Roman", Times, serif;
+nav input {
+	font-family: "Playfair Display", serif;
 	font-size: 20px; 	
 	margin-right: 2px;
 	display: inline-block;
@@ -56,10 +54,10 @@ header{
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
-	outline: 1px solid grey;
+	border: 1px solid maroon;
 }
 
-.directory input:hover{
+nav input:hover{
 	background-color: grey;
 }
 

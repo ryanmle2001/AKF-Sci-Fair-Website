@@ -58,7 +58,7 @@ nav input {
 }
 
 nav input:hover{
-	background-color: grey;
+	background-color: gold;
 }
 
 
@@ -104,6 +104,8 @@ nav input:hover{
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat (2, 1fr);
 	height: 100%;
+	background-color: white;
+	font-size: 15px;
 
 }
 
@@ -144,7 +146,7 @@ a {
 a:hover {
      color:maroon; 
      cursor:pointer;  
-     background-color: grey;
+     background-color: gold;
 }
 
 
@@ -166,7 +168,7 @@ button{
 }
 
 button:hover{
-	background-color: grey;
+	background-color: gold;
 }
 
 input{

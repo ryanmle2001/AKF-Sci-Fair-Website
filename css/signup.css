@@ -7,8 +7,8 @@
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "signup signup";
-	grid-template-rows: 25px 1fr 2fr 1fr;
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
+	grid-template-rows: 25px 1fr 3fr 5fr;
 }
 
 .motto {
@@ -116,8 +116,8 @@ p {
 	font-size: 15px;
 }
 
-.signup{
-	grid-area: signup;
+.content {
+	grid-area: content;
 }
 button{
 	font-size: 18px; 	
@@ -152,3 +152,9 @@ input{
 	text-align: center;
 	justify-content: center;
  }
+
+ footer {
+	width: 100%;
+	background-color: gold;
+	padding: 10px 0px;
+}

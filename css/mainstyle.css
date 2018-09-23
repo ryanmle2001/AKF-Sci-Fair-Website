@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
-	grid-template-rows: 25px 1fr 2fr;
+	grid-template-rows: 25px 1fr 3fr;
 }
 
 .motto {
@@ -137,7 +137,11 @@ form{
 	
 }
 
-
+footer {
+	width: 100%;
+	background-color: gold;
+	padding: 10px 0px;
+}
 
 	
 	

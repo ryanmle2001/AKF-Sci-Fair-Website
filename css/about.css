@@ -1,4 +1,4 @@
-*{
+ *{
 	text-align: center;
 	align-items: center;
 }
@@ -7,7 +7,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
-	grid-template-rows: 25px 1fr 2fr 3fr;
+	grid-template-rows: 25px 1fr 3fr 5fr;
 }
 
 .motto {
@@ -118,12 +118,12 @@ a:hover {
      background-color: grey;
 }
 
-
-
 p {
 	color: black;
 	font-size: 15px;
 }
+
+
 
 button{
 	font-size: 18px; 	
@@ -153,8 +153,16 @@ input{
 	text-align: center;
 }
 
-
+.content em{
+	text-decoration: underline;
 }
-form{
-	
+
+.statement {
+	font-weight: normal;
+}
+
+footer {
+	width: 100%;
+	background-color: gold;
+	padding: 10px 0px;
 }

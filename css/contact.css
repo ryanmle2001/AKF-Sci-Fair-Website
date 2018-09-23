@@ -139,4 +139,8 @@ p {
 	color: black;
 }
 
-
+footer {
+	width: 100%;
+	background-color: gold;
+	padding: 10px 0px;
+}

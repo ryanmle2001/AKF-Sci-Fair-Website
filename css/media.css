@@ -1,13 +1,15 @@
 *{
 	text-align: center;
 	align-items: center;
+	border: 1px red;
 }
 
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-areas: "motto motto" "header header" "centerhead centerhead";
-	grid-template-rows: 25px 1fr 2fr;
+	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
+	grid-template-rows: 25px 1fr 3fr 5fr;
+	height: 100%;
 }
 
 .motto {
@@ -97,6 +99,12 @@ nav input:hover{
 	color: white;
 }
 
+.content{
+	grid-area: content;
+	height: 100%;
+	width: 100%;
+
+}
 
 a {
     color: inherit;
@@ -148,4 +156,10 @@ input{
 }
 form{
 	
+}
+
+footer {
+	width: 100%;
+	background-color: gold;
+	padding: 10px 0px;
 }

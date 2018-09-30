@@ -163,3 +163,16 @@ footer {
 	background-color: gold;
 	padding: 10px 0px;
 }
+
+#column {
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+#column header{
+	text-align: center;
+	justify-content: center;
+	display: inline-block;
+	border-top: 1px white;
+	border-bottom: 1px;
+}

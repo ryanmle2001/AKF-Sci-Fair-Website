@@ -94,7 +94,7 @@ nav input:hover{
 	outline: 2px solid maroon;
 	padding: 0;
 	background-image: url("../img/about.jpg");
-	color: white;
+	color: black;
 }
 
 .content{
@@ -166,3 +166,4 @@ footer {
 	background-color: gold;
 	padding: 10px 0px;
 }
+

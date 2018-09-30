@@ -106,6 +106,7 @@ nav input:hover{
 	height: 100%;
 	background-color: white;
 	font-size: 15px;
+	display:;
 
 }
 
@@ -116,8 +117,24 @@ nav input:hover{
 	justify-content: center;
 	margin: 0 auto;
 	outline: 2px solid maroon;
-
 }
+
+.content input {
+	font-family: "Playfair Display", serif;
+	font-size: 20px; 	
+	margin-right: 2px;
+	width: 400px;
+	height: 200px;
+	min-width: 300px; 
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid maroon;
+}
+
+.content input:hover{
+	background-color: gold;
+}
+
 .about{
 	grid-area: about;
 	
@@ -144,54 +161,20 @@ a {
 }
 
 a:hover {
-     color:maroon; 
      cursor:pointer;  
      background-color: gold;
 }
-
-
 
 p {
 	color: black;
 	font-size: 15px;
 }
 
-button{
-	font-size: 18px; 	
-	margin-right: 2px;
-	display: inline-block;
-	padding: 5px;
-	width: 100px;
-	min-width: 50px; 
-	text-align: center;
-	background-color: #FFF;
-}
 
-button:hover{
-	background-color: gold;
-}
-
-input{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 5px; 	
-	margin-right: 2px;
-	display: inline-block;
-	width: 100px;
-	min-width: 50px; 
-	background-color: #FFF;
-	font-size: 20px; 	
-	width: 100px;
-	text-align: center;
-}
-
-
-}
-form{
-	
-}
-
-footer {
+ footer {
 	width: 100%;
 	background-color: gold;
 	padding: 10px 0px;
+	font-size: 15px;
+	text-decoration: none;
 }

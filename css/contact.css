@@ -61,7 +61,8 @@ nav input {
 }
 
 nav input:hover{
-	background-color: grey;
+	background-color: gold;
+	cursor: pointer;
 }
 
 .akf {
@@ -114,7 +115,9 @@ nav input:hover{
 	justify-content: center;
 	outline: 2px solid maroon;
 	margin: 0 auto;
-
+}
+.content h4{
+	font-weight: normal;
 }
 .stuinfo{
 	grid-area: stuinfo;
@@ -124,23 +127,14 @@ nav input:hover{
 	grid-area: teachinfo;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-div a:hover {
-     color:#00A0C6; 
-     text-decoration:none; 
-     cursor:pointer;  
-}
-
 p {
 	color: black;
 }
 
-footer {
+ footer {
 	width: 100%;
 	background-color: gold;
 	padding: 10px 0px;
+	font-size: 15px;
+	text-decoration: none;
 }

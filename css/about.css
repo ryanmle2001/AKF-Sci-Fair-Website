@@ -7,7 +7,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
-	grid-template-rows: 25px 1fr 3fr 5fr;
+	grid-template-rows: 25px 1fr 3fr 6fr;
 }
 
 .motto {
@@ -58,7 +58,8 @@ nav input {
 }
 
 nav input:hover{
-	background-color: grey;
+	background-color: gold;
+	cursor: pointer;
 }
 
 
@@ -94,7 +95,7 @@ nav input:hover{
 	outline: 2px solid maroon;
 	padding: 0;
 	background-image: url("../img/about.jpg");
-	color: black;
+	color: white;
 }
 
 .content{
@@ -104,8 +105,15 @@ nav input:hover{
 
 }
 
-span{
+h2{
+	font-weight: 500;
+}
+
+h2 span{
 	text-transform: uppercase;
+	font-weight: bold;
+    text-decoration: underline;
+
 }
 a {
     color: inherit;
@@ -113,16 +121,14 @@ a {
 }
 
 a:hover {
-     color:maroon; 
      cursor:pointer;  
-     background-color: grey;
+     background-color: lightgrey;
 }
 
 p {
 	color: black;
-	font-size: 15px;
+	font-size: 18px;
 }
-
 
 
 button{
@@ -137,20 +143,7 @@ button{
 }
 
 button:hover{
-	background-color: grey;
-}
-
-input{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 5px; 	
-	margin-right: 2px;
-	display: inline-block;
-	width: 100px;
-	min-width: 50px; 
-	background-color: #FFF;
-	font-size: 20px; 	
-	width: 100px;
-	text-align: center;
+	background-color: gold;
 }
 
 .content em{
@@ -165,5 +158,6 @@ footer {
 	width: 100%;
 	background-color: gold;
 	padding: 10px 0px;
+	font-size: 15px;
+	text-decoration: none;
 }
-

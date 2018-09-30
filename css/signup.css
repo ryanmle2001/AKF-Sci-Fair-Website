@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas: "motto motto" "header header" "centerhead centerhead" "content content";
-	grid-template-rows: 25px 1fr 3fr 5fr;
+	grid-template-rows: 25px 1fr 3fr 4fr;
 }
 
 .motto {
@@ -59,7 +59,8 @@ nav input {
 }
 
 nav input:hover{
-	background-color: grey;
+	background-color: gold;
+	cursor: pointer;
 }
 
 
@@ -109,8 +110,6 @@ a:hover {
      background-color: grey;
 }
 
-
-
 p {
 	color: black;
 	font-size: 15px;
@@ -119,7 +118,12 @@ p {
 .content {
 	grid-area: content;
 }
-button{
+.content h2 {
+	font-weight: 500;
+}
+
+.content input{
+	font-family: "Playfair Display", serif;
 	font-size: 18px; 	
 	margin-right: 2px;
 	display: inline-block;
@@ -128,23 +132,12 @@ button{
 	min-width: 50px; 
 	text-align: center;
 	background-color: #FFF;
+	border: 1px solid maroon;
 }
 
-button:hover{
-	background-color: grey;
-}
-
-input{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 5px; 	
-	margin-right: 2px;
-	display: inline-block;
-	width: 100px;
-	min-width: 50px; 
-	background-color: #FFF;
-	font-size: 20px; 	
-	width: 100px;
-	text-align: center;
+.content input:hover{
+	background-color: lightgrey;
+	cursor: pointer;
 }
 
  h3{
@@ -157,4 +150,6 @@ input{
 	width: 100%;
 	background-color: gold;
 	padding: 10px 0px;
+	font-size: 15px;
+	text-decoration: none;
 }

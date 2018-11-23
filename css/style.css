@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+.nav-link{
+  padding-right: 2rem !important;
+}
 
 
 
